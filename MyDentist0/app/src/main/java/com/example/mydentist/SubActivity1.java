@@ -13,9 +13,6 @@ import android.os.Bundle;
 import android.view.View;
 
 public class SubActivity1 extends AppCompatActivity implements View.OnClickListener {
-
-
-
     @SuppressLint("MissingInflatedId")
     @Override
 
@@ -23,7 +20,8 @@ public class SubActivity1 extends AppCompatActivity implements View.OnClickListe
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sub1);
-
+      
+        findViewById(R.id.button01).setOnClickListener(this);
         findViewById(R.id.button02).setOnClickListener(this);
         findViewById(R.id.button03).setOnClickListener(this);
         findViewById(R.id.button04).setOnClickListener(this);

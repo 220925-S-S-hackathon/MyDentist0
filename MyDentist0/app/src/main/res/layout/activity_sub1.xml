@@ -12,7 +12,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/teeth"
@@ -155,7 +155,6 @@
         app:layout_constraintTop_toBottomOf="@+id/button12"
         tools:ignore="MissingConstraints" />
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="86dp"
@@ -194,3 +193,4 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
